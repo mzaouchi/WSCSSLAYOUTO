@@ -1,0 +1,80 @@
+.navmenu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-css{
+    width: 80px;
+    height: 80px;
+}
+
+.nav-links{
+  
+    display: flex;
+    justify-content: space-around;
+    width :440px
+}
+
+.text{
+    font-size: 29px;
+    color: cadetblue;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.about-section{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1{
+    font-size: 40px;
+}
+
+.watchvideo-btn{
+    font-weight: bold;
+    font-size: 27px;
+    color: cadetblue;
+    background-color: black;
+    border: 4px solid cadetblue;
+}
+
+.projects-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+/* Les P qui se trouvent dans project */
+.project p{
+    font-size: 20px;
+}
+
+.project h3{
+    font-size: 30px;
+}
+
+.project a{
+    font-size: 30px;
+    text-decoration: none;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+footer p{
+    font-size: 50px;
+}
